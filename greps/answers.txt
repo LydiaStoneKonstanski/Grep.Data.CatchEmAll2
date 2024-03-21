@@ -1,5 +1,22 @@
 # Part 1
 ### a)
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^beed" forest/filescan_00.1 > captured/capturedBeedrill.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^blas" forest/filescan_00.1 > captured/capturedBlastoise.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^bulb" forest/filescan_00.1 > captured/capturedBulbasaur.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^butt" forest/filescan_00.1 > captured/capturedButterfree.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "izard$" forest/filescan_00.2 > captured/capturedCharizard.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "mander$" forest/filescan_00.2 > captured/capturedCharmander.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "meleon$" forest/filescan_00.2 > captured/capturedCharmeleon.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^ivys" forest/filescan_00.3 > captured/capturedIvysaur.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^jigg" forest/filescan_00.3 > captured/capturedJigglypuff.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^pika" forest/* > captured/capturedPikachu.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^meow" forest/filescan_00.3 > captured/capturedMeowth.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^psyd" forest/filescan_00.4> captured/capturedPsyduck.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^squi" forest/filescan_00.4 > captured/capturedSquirtle.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^venu" forest/filescan_00.4 > captured/capturedVenusaur.txt
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % grep "^wart" forest/filescan_00.4 > captured/capturedWartortle.txt
+
+
 
 
 
