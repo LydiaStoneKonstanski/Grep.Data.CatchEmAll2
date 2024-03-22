@@ -1,5 +1,6 @@
 # Part 1
-### a) Grep Commands to capture Pokemon AND What Section of the Forest
+### a) and c) Grep Commands to capture Pokemon AND What Section of the Forest
+
 grep "^beed" forest/filescan_00.1 > captured/Beedrill.txt
 grep "^blas" forest/filescan_00.1 > captured/Blastoise.txt
 grep "^bulb" forest/filescan_00.1 > captured/Bulbasaur.txt
@@ -16,8 +17,13 @@ grep "^squi" forest/filescan_00.4 > captured/Squirtle.txt
 grep "^venu" forest/filescan_00.4 > captured/Venusaur.txt
 grep "^wart" forest/filescan_00.4 > captured/Wartortle.txt
 
-### b)
-LineCount
+
+
+
+
+# Part 2
+### a)
+LineCount/Largest
 grep -c "beed"
 40
 
@@ -27,56 +33,18 @@ grep -c "izard"
 grep -c "pika"
 40
 
-grep -c "blas"
-38
-
-grep -c "butt"
-38
-
-grep -c "meleon"
-37
-
-grep -c "psyd"
-37
-
-grep -c "psyd"
-37
-
-grep -c "wart"
-37
-
-grep -c "mander"
-36
-
-grep -c "jigg"
-34
-
-grep -c "squi"
-34
-
-grep -c "ivys"
-33
-
-grep -c "meow"
-33
-
-grep -c "venu"
-32
-
-grep -c "bulb"
-30
-
-
-
-# Part 2
-### a)
-
-
-
-
-
-
 ### b)
+There are 15 Pokemon, I counted them by:
+-- navigating into the folder,
+-- listing out the file names as lines,
+-- and calling for word count, but only the lines, not the words or characters.
+-- technically it wasn't grep I used for that part, but I still used the command line.
+
+lydia@Zipcoders-MacBook-Pro-74 Grep.Data.CatchEmAll2 % cd captured
+lydia@Zipcoders-MacBook-Pro-74 captured % ls -1 | wc -l
+      15
+
+
 
 
 
